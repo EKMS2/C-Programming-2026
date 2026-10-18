@@ -5,9 +5,9 @@ void exer1(void)
 	int player1, player2;
 	
 	/*
-		1 : °¡À§
-		2 : ¹ÙÀ§
-		3 : º¸ 
+		1 : ê°€ìœ„
+		2 : ë°”ìœ„
+		3 : ë³´
 	*/
 	
 	printf("input player1 : ");
