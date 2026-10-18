@@ -6,6 +6,6 @@ int main()
 	scanf("%d", &year);
 	
 	leafyear = ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
-	if(leafyear == 1) printf("À±³âÀÔ´Ï´Ù.");
-	else printf("Æò³âÀÔ´Ï´Ù."); 
+	if(leafyear == 1) printf("ìœ¤ë…„ì…ë‹ˆë‹¤.");
+	else printf("í‰ë…„ì…ë‹ˆë‹¤."); 
 }
