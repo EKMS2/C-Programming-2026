@@ -4,7 +4,7 @@ int main()
 {
 	int month, days;
 	
-	printf("¿ù(1 ~ 12)À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ì›”(1 ~ 12)ì„ ìž…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d", &month);
 	if (month >= 1 && month <= 12)
 	{
@@ -23,10 +23,11 @@ int main()
 				days = 31;
 				break;
 		}
-		printf("%d¿ùÀº %dÀÏ±îÁö ÀÖ½À´Ï´Ù.", month, days);
+		printf("%dì›”ì€ %dì¼ê¹Œì§€ ìžˆìŠµë‹ˆë‹¤.", month, days);
 	}
 	else
 	{
-		printf("¿ùÀº 1ºÎÅÍ 12»çÀÌÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		printf("ì›”ì€ 1ë¶€í„° 12ì‚¬ì´ì˜ ê°’ì„ ìž…ë ¥í•˜ì„¸ìš”.");
 	}
+	return 0;
 }
