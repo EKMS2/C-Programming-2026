@@ -4,7 +4,7 @@ int main()
 {
 	int year, leafyear, month, days;
 	
-	printf("³âµµ¿Í ¿ù(1 ~ 12)À» ÀÔ·ÂÇÏ¼¼¿ä : ");
+	printf("ë…„ë„ì™€ ì›”(1 ~ 12)ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 	scanf("%d %d", &year, &month);
 	leafyear = ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
 	
@@ -32,10 +32,11 @@ int main()
 				days = 31;
 				break;
 		}
-		printf("%d³â %d¿ùÀº %dÀÏ±îÁö ÀÖ½À´Ï´Ù.", year, month, days);
+		printf("%dë…„ %dì›”ì€ %dì¼ê¹Œì§€ ìˆìŠµë‹ˆë‹¤.", year, month, days);
 	}
 	else
 	{
-		printf("¿ùÀº 1ºÎÅÍ 12»çÀÌÀÇ °ªÀ» ÀÔ·ÂÇÏ¼¼¿ä.");
+		printf("ì›”ì€ 1ë¶€í„° 12ì‚¬ì´ì˜ ê°’ì„ ì…ë ¥í•˜ì„¸ìš”.");
 	}
+	return 0;
 }
