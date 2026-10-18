@@ -4,7 +4,7 @@ int main()
 {
 	double heightM, weightKg, BMI;
 	
-	printf("Å°¿Í ¸ö¹«°Ô¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+	printf("í‚¤ì™€ ëª¸ë¬´ê²Œë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš” : ");
 	
 	scanf("%lf %lf", &heightM, &weightKg);
 	
