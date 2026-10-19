@@ -4,8 +4,8 @@ int main()
 {
 	int total = 7, size = 2;
 	
-	printf("¸ò : %d\n", total / size);
-	printf("³ª¸ÓÁö : %d\n", total % size);
+	printf("ëª« : %d\n", total / size);
+	printf("ë‚˜ë¨¸ì§€ : %d\n", total % size);
 	
 	return 0; 
 }
