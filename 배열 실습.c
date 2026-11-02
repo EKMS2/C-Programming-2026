@@ -14,10 +14,9 @@ int main()
 		sum += number[i];
 		if (number[i] > MAX) MAX = number[i];
 		if (number[i] < MIN) MIN = number[i];
-		if (i % 10 == 0) printf("\n");
-		printf("%d¹ø ÇĞ»ı Á¡¼ö : %d\n", i + 1, number[i]);
+		printf("%dë²ˆ í•™ìƒ ì ìˆ˜ : %d\n", i + 1, number[i]);
 	}
 	avg = sum / 10.0;
-	printf("ÃÖ´ñ°ª : %d, ÃÖ¼Ú°ª : %d, Æò±Õ : %lf", MAX, MIN, avg);
+	printf("ìµœëŒ“ê°’ : %d, ìµœì†Ÿê°’ : %d, í‰ê·  : %lf", MAX, MIN, avg);
 	return 0;
 }
