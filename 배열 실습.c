@@ -16,7 +16,7 @@ int main()
 		if (number[i] < MIN) MIN = number[i];
 		printf("%d번 학생 점수 : %d\n", i + 1, number[i]);
 	}
-	avg = sum / 10.0;
+	avg = (double)sum / SIZE;
 	printf("최댓값 : %d, 최솟값 : %d, 평균 : %lf", MAX, MIN, avg);
 	return 0;
 }
